@@ -1,6 +1,6 @@
 ﻿// Задача 41: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел строго больше 0 ввёл пользователь.
 // 0, 7, 8, -2, -2 -> 2            1, -7, 567, 89, 223-> 4
-Console.Write("Введите целые числа через запятую: ");
+/* Console.Write("Введите целые числа через запятую: ");
 string stroka = Console.ReadLine()!;
 stroka = stroka.Replace(" ", "");
 if (NumToString(stroka))
@@ -61,11 +61,11 @@ bool NumToString(string stroka)
     }
     return flag;
 }
-
+ */
 // Задача 43: Написать программу, которая на вход принимает массив из любого количества элементов (не менее 6)в промежутке от 0 до 100, 
 // а на выходе выводит этот же массив, но отсортированный по возрастанию(от меньшего числа к большему).
 
-/* int[] array = GetArrayRandom(10, 0, 100);
+int[] array = GetArrayRandom(10, 0, 100);
 Console.WriteLine($"Вывод массива в строку: [ {String.Join(", ", array)} ]");
 Console.WriteLine($"Сортировка по возрастанию: [ {String.Join(", ", SotrArray(array))} ]");
 
@@ -99,4 +99,3 @@ int[] GetArrayRandom(int size, int minValue, int maxValue)
     }
     return array;
 }
- */
